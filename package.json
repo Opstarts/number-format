@@ -1,0 +1,29 @@
+{
+  "name": "basic-number-format",
+  "version": "0.1.0",
+  "description": "gs",
+  "main": "lib/number_format.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Opstarts/opstarts-core.git"
+  },
+  "author": "Opstarts <dev@opstarts.com>",
+  "bugs": {
+    "url": "https://github.com/Opstarts/basic-number-format/issues"
+  },
+  "homepage": "https://github.com/Opstarts/basic-number-format#readme",
+  "dependencies" : {
+    "lodash": "3.10.0",
+    "money-core": "0.1.6",
+    "browser-locale": "1.0.0",
+    "intl": "1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.2.17"
+  }
+}
