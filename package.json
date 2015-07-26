@@ -1,6 +1,6 @@
 {
   "name": "basic-number-format",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "gs",
   "main": "lib/number_format.js",
   "scripts": {
@@ -20,7 +20,6 @@
   "dependencies" : {
     "lodash": "3.10.0",
     "money-core": "0.1.6",
-    "browser-locale": "1.0.0",
     "intl": "1.0.0"
   },
   "devDependencies": {

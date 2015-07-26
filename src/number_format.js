@@ -10,13 +10,11 @@ var test = function(format, currency) {
   });
 };
 
-var browserLocale = require('browser-locale')();
-
 var NumberFormat = function(locale) {
-  var self = this;
-
-  //Constructor!
-  self._locale = locale || browserLocale;
+  if (!locale) {
+    throw new Error("Must pass a locale to construct NumberFormat");
+  }
+  self._locale = locale;
 };
 
 NumberFormat.prototype._simplifyHelper = function(n, roundVal, divide, letter, options) {
