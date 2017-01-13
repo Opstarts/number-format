@@ -1,6 +1,6 @@
 {
   "name": "basic-number-format",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "gs",
   "main": "lib/number_format.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Opstarts/basic-number-format#readme",
   "dependencies" : {
     "lodash": "3.10.1",
-    "money-core": "0.1.15"
+    "money-core": "^0.1.16"
   },
   "devDependencies": {
     "babel": "^5.2.17"
